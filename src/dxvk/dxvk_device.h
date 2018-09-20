@@ -327,7 +327,6 @@ namespace dxvk {
      * \param [in] commandList The command list to submit
      * \param [in] waitSync (Optional) Semaphore to wait on
      * \param [in] wakeSync (Optional) Semaphore to notify
-     * \returns Synchronization fence
      */
     void submitCommandList(
       const Rc<DxvkCommandList>&      commandList,
